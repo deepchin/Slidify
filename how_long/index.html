@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>How Long Will It Last?</title>
+  <meta charset="utf-8">
+  <meta name="description" content="How Long Will It Last?">
+  <meta name="author" content="">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>How Long Will It Last?</h1>
+    <h2>Calculating the Lifetime of Your Retirement Savings</h2>
+    <p><br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Why you need &quot;How Long Will It Last?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br>
+1.  Planning for retirement is important, but often hard and scary. 
+<br>
+<br>
+2.  People need easy tools to help quickly understand where they are and where they are going. 
+<br>
+<br>
+3.  They need to include inflation and investment return rate in their planning. 
+<br>
+<br>
+4.  Future inflation and return rates are uncertain.  When thinking about retirement, people need tools for dealing with the uncertainty. 
+<br>
+<br>
+5.  Many people are not comfortable with numbers and formulas.  A picture is worth a thousand words.<br>
+<br></p>
+
+<h3>This is a simple and fun tool to help with retirement planning.</h3>
+
+<p><a href="https://kthoover.shinyapps.io/Shiny1/">How Long Will It Last?</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Here it is -- How Long Will It Last?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="C:/Users/Kurt/datasciencecoursera/Slidify/how_long/fig/DB1.jpg" style="width: 1000px;"/> </p>
+
+<ol>
+<li><p>Enter you current savings and investments in the top scroll box and how much you think you will spend in your first year of retirement in the second scoll box.</p></li>
+<li><p>Use the sliders to enter estimates for rate of return on your investments and inflation rate.</p></li>
+<li><p>The model will tell you how long your retirement nest-egg will last.</p></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Improve Your Future</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="C:/Users/Kurt/datasciencecoursera/Slidify/how_long/fig/IB1.jpg" style="width: 1000px;"/>  </p>
+
+<ol>
+<li><p>Change the setting to see how to make your nest egg last longer.</p></li>
+<li><p>You can see what it will take to reach your goals.</p></li>
+<li><p>With good planning, you may even be able to grow you nest-egg in retirement.</p></li>
+</ol>
+
+<p><a href="https://kthoover.shinyapps.io/Shiny1/">How Long Will It Last?</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Possible Improvements and Next Steps</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br>
+1.  Allow for defined contributions, including Social Security and pensions. 
+<br>
+<br>
+2.  Allow future expenses to vary other than increasing with inflation. 
+<br>
+<br>
+3.  Allow a delay between today and the time when retirement spending starts. 
+<br>
+<br>
+4.  Allow users to input a number of years and have the required nest-egg calculated. 
+<br>
+<br>
+5.  Allow users to save past scenarios in some way.</p>
+
+<pre><code class="r">d &lt;- Sys.Date()
+t &lt;- paste(weekdays(d), months(d), as.numeric(format(d, &quot;%d&quot;)), as.numeric(format(d, 
+    &quot;%Y&quot;)))
+</code></pre>
+
+<h3>Today is Saturday June 21 2014, start planning for your retirement now.</h3>
+
+<p><a href="https://kthoover.shinyapps.io/Shiny1/">How Long Will It Last?</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Why you need &quot;How Long Will It Last?'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Here it is -- How Long Will It Last?'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Improve Your Future'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Possible Improvements and Next Steps'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
