@@ -40,7 +40,7 @@ knit        : slidify::knit2slides
 
 ## Here it is -- How Long Will It Last?
 
-<img src="C:/Users/Kurt/datasciencecoursera/Slidify/how_long/fig/DB1.jpg" style="width: 1000px;"/> 
+<img src="fig/DB1.jpg" style="width: 1000px;"/> 
 
 
 1.  Enter you current savings and investments in the top scroll box and how much you think you will spend in your first year of retirement in the second scoll box.
@@ -54,8 +54,7 @@ knit        : slidify::knit2slides
 
 ## Improve Your Future
 
-<img src="C:/Users/Kurt/datasciencecoursera/Slidify/how_long/fig/IB1.jpg" style="width: 1000px;"/>  
-
+<img src="fig/IB1.jpg" style="width: 1000px;"/>  
 
 
 1.  Change the setting to see how to make your nest egg last longer.
